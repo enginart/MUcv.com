@@ -12,7 +12,7 @@ const Layout = () => {
         <Container fluid>  
             <Navbar.Brand href="#home">
             <div className='logotitle'>
-            <Image src={logo} width="70"/>
+            <Image src={logo} width="50"/>
             Canto<i>Vario</i> ®
             </div>
             </Navbar.Brand>  

@@ -6,12 +6,14 @@ const Home = () => {
     <div className="bod">
         <div className='home-container'>
           <h1 className='home-title'>Canto<i>Vario</i></h1>
-          <div className="home-box">
+          <div className="body-box">
             {/* Video */}
             <div className="home-video-box">
-              <iframe className='home-video'
-              src="https://www.youtube.com/embed/xrrLNykHNao?mute=0&showinfo=1&controls=0&start=0">
-              </iframe>
+            <iframe className="home-video" src="https://www.youtube.com/embed/xrrLNykHNao?mute=0&showinfo=1&controls=0&start=0" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen></iframe>
             </div>
 
             <div className="home-descrip">

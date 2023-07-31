@@ -4,10 +4,11 @@ const About = () => {
   return (
     <div className="bod">
       <div className="about">
-        <div className='about-container'>
-            <h3 className='about-title'>
+        <div className='body-box'>
+            <div className='about-title'>
             About
-            </h3>
+            </div>
+            <hr></hr>
             <div className='about-body'>
                 CantoVario enables users to take songs and mash them up to create something new and perhaps unexpected.
                 <br/><br/>
