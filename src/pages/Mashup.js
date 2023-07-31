@@ -2,7 +2,7 @@ import React from 'react'
 
 const Mashup = () => {
   return (
-    <div>Mashup</div>
+    <div className='bod'>Mashup</div>
   )
 }
 
