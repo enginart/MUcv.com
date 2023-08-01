@@ -162,12 +162,22 @@
   border-color: transparent !important;
   border-style: none;
   letter-spacing: 1px;
-  font-size: 1.875rem;
+  font-size: 1.5rem!important;
   background-image: none;
   text-transform: uppercase;
   box-shadow: 5px 5px 8px 0 rgba(0,0,0,0.4);
-  font-weight: 700;
+  font-weight: 700!important;
   margin: 25px auto 0;
+}
+
+
+.home-button:hover {
+  background-color: #b17a27 !important
+}
+
+.home-button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .about {
@@ -296,10 +306,104 @@
 }
 
 .mashup-button:hover {
-  background-color: #7d7bf3 !important
+  background-color: #b17a27 !important
 }
 
 .mashup-button:active {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+.audio-player {
+  margin-top: 50px;
+  border: 2px solid gray;
+  border-radius: 25px;
+  padding: 20px;
+  margin-left: 4rem;
+  margin-right: 4rem;
+
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+}
+
+.playback-button {
+  transition: 0.2s;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #54b1c1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 32px;
+  cursor: pointer;
+}
+
+.playback-button svg {
+  transition: 0.2s;
+  width: 18px;
+  height: 18px;
+  color: #54b1c1;
+}
+
+.playback-button:hover svg {
+  width: 18px;
+  height: 18px;
+  color: #73e7fb;
+  transform: scale(1.03);
+}
+
+.timebar {
+  flex: 1 1;
+  margin-top: 12px;
+}
+
+.timebar-bar {
+  height: 4px;
+}
+
+.timebar-circle {
+  background-color: #54b1c1;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  transform: translate(-50%, calc(-50% + 2px));
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.timebar-time-info {
+  margin-top: 8px;
+  font-size: 11px;
+  color: lightgrey;
+  display: flex;
+  justify-content: space-between;
+}
+
+.listen-to-your-mashup {
+  border-radius: 25px;
+  font-weight: 700;
+  color: #efab47;
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-top: 20px;
+  text-shadow: 3px 3px 13px rgba(0,0,0,0.25);
+}
+
+.view-mashup-title {
+  /* padding-top: 30px; */
+  border-radius: 25px;
+  font-weight: 400;
+  color: #efab47;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin-top: 20px;
+  text-shadow: 3px 3px 13px rgba(0,0,0,0.25);
 }
