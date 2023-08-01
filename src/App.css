@@ -44,7 +44,7 @@
   text-underline-offset: 10px !important;
   padding-left: 1rem !important;
   padding-right: 1rem !important;
-  font-weight: 350 !important;
+  font-weight: 400 !important;
 
 }
 
@@ -229,4 +229,77 @@
   text-shadow: 3px 3px 13px rgba(0,0,0,0.25);
 }
 
+.song-choices {
+  display: flex;
+  /* min-height: 40vh; */
+}
 
+.song-choice {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.song-choice-label{
+  font-weight: 700;
+  color: #efab47;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-shadow: 3px 3px 13px rgba(0,0,0,0.25);
+}
+
+.song-choice-option {
+  text-align: center;
+  font-size: 1em;
+  color: #292870;
+  width: 300px;
+}
+
+.mashup-reveal {
+  border: 3px solid white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 25px;
+  font-weight: 700;
+  color: #efab47;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-shadow: 3px 3px 13px rgba(0,0,0,0.25);
+}
+
+.mashup-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.mashup-button {
+  margin-top: 20px;
+  align-self: center;
+  border: 3px solid rgb(190,92,162);
+  letter-spacing: 1px !important;
+  font-size: 1.875rem !important;
+  background-image: none !important;
+  text-transform: uppercase !important;
+  /* box-shadow: 2px 2px 4px 0 rgb(239,171,71 ) !important; */
+  font-weight: 700 !important;
+  padding: 5px 30px 5px 30px !important;
+  color: #292870!important;
+  background-color: #efab47 !important;
+}
+
+.mashup-button:hover {
+  background-color: #7d7bf3 !important
+}
+
+.mashup-button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
