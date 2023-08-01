@@ -41,6 +41,7 @@
   font-size: 30px !important;
   color: white !important;
   text-decoration: underline !important;
+  text-decoration-thickness: 2px !important;
   text-underline-offset: 10px !important;
   padding-left: 1rem !important;
   padding-right: 1rem !important;
@@ -57,7 +58,7 @@
   font-size: 2rem;
   line-height: 1.2;
   text-transform: none;
-  font-weight: 700;
+  font-weight: 400;
   color: rgb(239,171,71);
 }
 
@@ -107,7 +108,7 @@
 }
 
 .home-title {
-  font-weight: 400;
+  font-weight:400;
   font-size: 3rem;
   line-height: 1.1;
   margin-bottom: 20px;
@@ -188,7 +189,7 @@
 }
 
 .about-title {
-  font-weight: 700;
+  font-weight: 400;
   color: #efab47;
   text-align: center;
   font-size: 3rem;
@@ -230,7 +231,7 @@
 }
 
 .exhibit-title {
-  font-weight: 700;
+  font-weight: 400;
   color: #efab47;
   text-align: center;
   font-size: 3rem;
@@ -252,7 +253,7 @@
 }
 
 .song-choice-label{
-  font-weight: 700;
+  font-weight: 400;
   color: #efab47;
   text-align: center;
   font-size: 2rem;
@@ -274,7 +275,7 @@
   padding-top: 30px;
   padding-bottom: 30px;
   border-radius: 25px;
-  font-weight: 700;
+  font-weight: 400;
   color: #efab47;
   text-align: center;
   font-size: 2rem;
@@ -387,10 +388,10 @@
 
 .listen-to-your-mashup {
   border-radius: 25px;
-  font-weight: 700;
+  font-weight: 400;
   color: #efab47;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 3rem;
   line-height: 1.2;
   margin-top: 20px;
   text-shadow: 3px 3px 13px rgba(0,0,0,0.25);

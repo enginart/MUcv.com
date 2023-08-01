@@ -84,7 +84,7 @@ const Mashup = () => {
     && (sBchoice !== "--------") && sBchoice !== "Select song B") &&
     
     <div className='mashup-button-container'>
-      <Button className='mashup-button' onClick={handleSubmit}>Make Mashup</Button>
+      <Button className='mashup-button' onClick={handleSubmit}>Make A Mashup</Button>
 
     </div>
 
