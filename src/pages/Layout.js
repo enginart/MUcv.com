@@ -27,17 +27,17 @@ const Layout = () => {
             </Nav>  
 
             <Nav>  
-                <Nav.Link href="/" className="navitem"> Home</Nav.Link>  
-                <Nav.Link eventKey={2} href="/About" className="navitem">  
+                <Nav.Link href="/MUcv.com/" className="navitem"> Home</Nav.Link>  
+                <Nav.Link eventKey={2} href="/MUcv.com/About" className="navitem">  
                 About 
                 </Nav.Link>
-                <Nav.Link eventKey={2} href="/Contact" className="navitem">  
+                <Nav.Link eventKey={2} href="/MUcv.com/Contact" className="navitem">  
                 Contact  
                 </Nav.Link>  
-                <Nav.Link eventKey={2} href="/Mashup" className="navitem">  
+                <Nav.Link eventKey={2} href="/MUcv.com/Mashup" className="navitem">  
                 Mashup 
                 </Nav.Link>  
-                <Nav.Link eventKey={2} href="/Exhibit" className="navitem">  
+                <Nav.Link eventKey={2} href="/MUcv.com/Exhibit" className="navitem">  
                 Exhibit
                 </Nav.Link>   
             </Nav>  

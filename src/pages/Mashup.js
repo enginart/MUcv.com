@@ -38,7 +38,7 @@ const Mashup = () => {
       return val.sA === sAchoice && val.sB === sBchoice
     })
     console.log(mashuppath[0].muName)
-    navigate('/ViewMashups/' + mashuppath[0].muName)
+    navigate('/MUcv.com/ViewMashups/' + mashuppath[0].muName)
 
   }
 

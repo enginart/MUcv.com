@@ -4,6 +4,8 @@ export const NoPage = () => {
   const {param} = useParams()
   console.log(param)
   return (
-    <div>{param}</div>
+    <div className="bod">
+      <h3 style={{color: 'white'}}>No Page Found</h3>
+    </div>
   )
 }

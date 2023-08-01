@@ -14,13 +14,13 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/MUcv.com/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Contact" element={<Contact />} />
-          <Route path="/Mashup" element={<Mashup />} />
-          <Route path="/Exhibit" element={<Exhibit />} />
-          <Route path="/ViewMashups/:mashup" element={<ViewMashup />} />
+          <Route path="/MUcv.com/About" element={<About />} />
+          <Route path="/MUcv.com/Contact" element={<Contact />} />
+          <Route path="/MUcv.com/Mashup" element={<Mashup />} />
+          <Route path="/MUcv.com/Exhibit" element={<Exhibit />} />
+          <Route path="/MUcv.com/ViewMashups/:mashup" element={<ViewMashup />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

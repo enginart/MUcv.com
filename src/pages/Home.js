@@ -20,7 +20,7 @@ const Home = () => {
             This demo is an experimental site. If you'd like to stay connected with CantoVario, please use the contact link in the header.
             </div>
             <div  className='home-button-container'>
-            <Button href="Mashup" className='home-button'>Make a Mashup</Button>
+            <Button href="/MUcv.com/Mashup" className='home-button'>Make a Mashup</Button>
 
             {/* <Button href="" className='home-button'>Listen to a Mashup</Button> */}
 

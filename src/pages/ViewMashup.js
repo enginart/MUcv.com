@@ -43,7 +43,7 @@ const ViewMashup = () => {
         <AudioPlayer url={soundFile} />
 
         <div className='view-mashup-title'>
-        <Button href="/Mashup" className='home-button'>Make Another</Button>
+        <Button href="/MUcv.com/Mashup" className='home-button'>Make Another</Button>
         </div>
 
         <div>
