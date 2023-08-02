@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MUcv.com/static/css/main.103683ab.css",
-    "main.js": "/MUcv.com/static/js/main.1425322e.js",
+    "main.css": "/MUcv.com/static/css/main.d996253b.css",
+    "main.js": "/MUcv.com/static/js/main.1aeafe77.js",
     "static/js/787.b5130eac.chunk.js": "/MUcv.com/static/js/787.b5130eac.chunk.js",
     "static/media/happy_X_broccoli.mp3": "/MUcv.com/static/media/happy_X_broccoli.8b5020dc4235b2216ffe.mp3",
     "static/media/bailando_X_uma_thurman.mp3": "/MUcv.com/static/media/bailando_X_uma_thurman.5d7ae6cb8b27d78881e1.mp3",
@@ -139,12 +139,12 @@
     "static/media/ggggg-min.jpg": "/MUcv.com/static/media/ggggg-min.b846fbf6515aa8d3959b.jpg",
     "static/media/tou.pdf": "/MUcv.com/static/media/tou.bf3f762fbb09ce075c7f.pdf",
     "index.html": "/MUcv.com/index.html",
-    "main.103683ab.css.map": "/MUcv.com/static/css/main.103683ab.css.map",
-    "main.1425322e.js.map": "/MUcv.com/static/js/main.1425322e.js.map",
+    "main.d996253b.css.map": "/MUcv.com/static/css/main.d996253b.css.map",
+    "main.1aeafe77.js.map": "/MUcv.com/static/js/main.1aeafe77.js.map",
     "787.b5130eac.chunk.js.map": "/MUcv.com/static/js/787.b5130eac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.103683ab.css",
-    "static/js/main.1425322e.js"
+    "static/css/main.d996253b.css",
+    "static/js/main.1aeafe77.js"
   ]
 }
