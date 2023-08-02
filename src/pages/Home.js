@@ -22,7 +22,7 @@ const Home = () => {
             <div  className='home-button-container'>
             <Button href="/MUcv.com/Mashup" className='home-button'>Make a Mashup</Button>
 
-            {/* <Button href="" className='home-button'>Listen to a Mashup</Button> */}
+            <Button href="/MUcv.com/BrowseMashups" className='home-button'>Listen to a Mashup</Button>
 
             </div>
             
