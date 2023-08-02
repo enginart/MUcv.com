@@ -1,6 +1,6 @@
 
 import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Exhibit from './pages/Exhibit';
@@ -10,23 +10,24 @@ import Layout from './pages/Layout';
 import { NoPage } from './pages/NoPage';
 import ViewMashup from './pages/ViewMashup';
 import { BrowseMashups } from './pages/BrowseMashups';
+import Footer from './pages/Footer';
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
+      <Layout />
       <Routes>
-        <Route path="/MUcv.com/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="/MUcv.com/About" element={<About />} />
-          <Route path="/MUcv.com/Contact" element={<Contact />} />
-          <Route path="/MUcv.com/Mashup" element={<Mashup />} />
-          <Route path="/MUcv.com/Exhibit" element={<Exhibit />} />
-          <Route path="/MUcv.com/BrowseMashups" element={<BrowseMashups/>} />
-          <Route path="/MUcv.com/ViewMashups/:mashup" element={<ViewMashup />} />
-          <Route path="*" element={<NoPage />} />
-        </Route>
+      <Route path="" element={<Home />} />
+      <Route path="/About" element={<About />} />
+      <Route path="/Contact" element={<Contact />} />
+      <Route path="/Mashup" element={<Mashup />} />
+      <Route path="/Exhibit" element={<Exhibit />} />
+      <Route path="/BrowseMashups" element={<BrowseMashups/>} />
+      <Route path="/ViewMashups/:mashup" element={<ViewMashup />} />
+      <Route path="*" element={<NoPage />} />
       </Routes>
-    </BrowserRouter>
+      <Footer />
+    </>
   );
 }
 

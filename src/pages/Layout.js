@@ -1,9 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';  
 import { Navbar, Container, Nav} from 'react-bootstrap'; 
-import { Outlet } from 'react-router-dom';
 import Image from 'react-bootstrap/Image';
 import logo from '../images/ogol.png'
-import Footer from './Footer';
 
 
 const Layout = () => {
@@ -27,7 +25,7 @@ const Layout = () => {
             </Nav>  
 
             <Nav>  
-                <Nav.Link href="/MUcv.com/" className="navitem"> Home</Nav.Link>  
+                <Nav.Link href="/MUcv.com" className="navitem"> Home</Nav.Link>  
                 <Nav.Link eventKey={2} href="/MUcv.com/About" className="navitem">  
                 About 
                 </Nav.Link>
@@ -46,9 +44,7 @@ const Layout = () => {
         </Container>  
       </Navbar>
 
-    <Outlet/>
 
-    <Footer/>
     </>
   )
 };
