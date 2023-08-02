@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import AudioPlayer from './audioplayer/AudioPlayer';
 import { Button } from 'react-bootstrap';
 
-const data = require('../SongFiles/List/fixedlist.json')
+const data = require('../SongFiles_DD/List/fixedlist.json')
 
 const ViewMashup = () => {
 
@@ -24,7 +24,7 @@ const ViewMashup = () => {
     console.log(selected)
     
     useEffect(() => {
-        const file = require(`../SongFiles/${mashup}`);
+        const file = require(`../SongFiles_DD/${mashup}`);
         setSoundFile(file);
       }, []);
 
