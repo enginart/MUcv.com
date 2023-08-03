@@ -136,6 +136,7 @@
   min-width: 800px;
   /* min-height: 800px; */
   width: 40vw;
+  max-width: 900px;
   border-radius: 25px;
   background-color: rgb(41,40,112);
   padding-left: 2rem;
