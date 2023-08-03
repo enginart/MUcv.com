@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MUcv.com/static/css/main.eee1506b.css",
+    "main.css": "/MUcv.com/static/css/main.0c047162.css",
     "main.js": "/MUcv.com/static/js/main.92e3ecd6.js",
     "static/js/787.b5130eac.chunk.js": "/MUcv.com/static/js/787.b5130eac.chunk.js",
     "static/media/happy_X_broccoli.mp3": "/MUcv.com/static/media/happy_X_broccoli.8b5020dc4235b2216ffe.mp3",
@@ -139,12 +139,12 @@
     "static/media/ggggg-min.jpg": "/MUcv.com/static/media/ggggg-min.b846fbf6515aa8d3959b.jpg",
     "static/media/tou.pdf": "/MUcv.com/static/media/tou.bf3f762fbb09ce075c7f.pdf",
     "index.html": "/MUcv.com/index.html",
-    "main.eee1506b.css.map": "/MUcv.com/static/css/main.eee1506b.css.map",
+    "main.0c047162.css.map": "/MUcv.com/static/css/main.0c047162.css.map",
     "main.92e3ecd6.js.map": "/MUcv.com/static/js/main.92e3ecd6.js.map",
     "787.b5130eac.chunk.js.map": "/MUcv.com/static/js/787.b5130eac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eee1506b.css",
+    "static/css/main.0c047162.css",
     "static/js/main.92e3ecd6.js"
   ]
 }
