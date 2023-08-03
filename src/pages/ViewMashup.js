@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import AudioPlayer from './audioplayer/AudioPlayer';
 import { Button } from 'react-bootstrap';
 
-const data = require('../SongFiles_DD/List/fixedlist.json')
+const data = require('../SongFiles_DD/List/mulist.json')
 
 const ViewMashup = () => {
 
